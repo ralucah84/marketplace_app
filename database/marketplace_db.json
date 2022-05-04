@@ -1,0 +1,33 @@
+{
+    "users": {
+        "b4da16a1-b23f-42c8-aff0-371539fe1553": {
+            "name": "John Doe",
+            "email": "john_doe@gmail.com",
+            "register_date": "2022-04-13 20:44"
+        },
+        "c10aaaaa-b23f-42c8-aff0-371539fe1553": {
+            "name": "Jane Doe",
+            "email": "janey_doe@gmail.com",
+            "register_date": "2022-04-14 20:00"
+        },
+        "xxx": {
+            "name": "Jacky Chan",
+            "email": "jacky_jack@gmail.com",
+            "register_date": "2022-04-20 20:00"
+        }
+    },
+    "products": {
+        "2dd36a4f-9b7c-4f1f-a33b-ff44a6230645": {
+            "product_name": "bread",
+            "category": "bakery",
+            "price": 5
+        }
+    },
+    "orders": {
+        "417f7f02-10fd-40e7-820b-5088f20b540d": {
+            "user_id": "b4da16a1-b23f-42c8-aff0-371539fe1553",
+            "product_id": "2dd36a4f-9b7c-4f1f-a33b-ff44a6230645",
+            "register_date": "2022-04-13 20:46"
+        }
+    }
+}
