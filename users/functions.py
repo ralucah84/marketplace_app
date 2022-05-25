@@ -5,6 +5,8 @@ from uuid import uuid4
 
 from flask import Response
 
+import sys
+print (sys.path)
 from database.functions import read_database, write_database
 
 

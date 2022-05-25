@@ -14,6 +14,11 @@
             "name": "Jacky Chan",
             "email": "jacky_jack@gmail.com",
             "register_date": "2022-04-20 20:00"
+        },
+        "f0228462-f899-4671-a8d2-30e140d4ce15": {
+            "name": "Ralu",
+            "email": "ralu@gmail.com",
+            "register_date": "2022-05-18 12:21"
         }
     },
     "products": {
@@ -21,6 +26,16 @@
             "product_name": "bread",
             "category": "bakery",
             "price": 5
+        },
+        "ccf7d66c-6ba5-4ec2-809d-e569f774a1aa": {
+            "product_name": "mango",
+            "product_category": "fruits",
+            "product_price": "8"
+        },
+        "113f6257-75c9-46d9-98d9-440d7295f557": {
+            "product_name": "Iphone",
+            "product_category": "telefoane",
+            "product_price": 1000
         }
     },
     "orders": {
