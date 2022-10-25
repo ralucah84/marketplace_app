@@ -46,7 +46,7 @@ def create_user():
     # 1.cream register_date in mod dinamic
     # 2.verificare email
 
-    print('Creaing a user...')
+    print('Creating a user...')
     data = read_database()
     print(data)
 
@@ -129,7 +129,7 @@ def update_user():
     data = read_database()
     users = data.get('users')
 
-    input_email = input("PLease input email of user you want to update: ")
+    input_email = input("Please input email of user you want to update: ")
     updated_name = input("Please input updated name: ")
     updated_email = input("Please input updated email: ")
 

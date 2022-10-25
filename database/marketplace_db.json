@@ -19,14 +19,14 @@
             "name": "Ralu",
             "email": "ralu@gmail.com",
             "register_date": "2022-05-18 12:21"
+        },
+        "c68c6b7e-b8dd-41ba-896f-2dd8cb585d67": {
+            "name": "Raluca H",
+            "email": "ralucah@gmail.com",
+            "register_date": "2022-08-31 18:28"
         }
     },
     "products": {
-        "2dd36a4f-9b7c-4f1f-a33b-ff44a6230645": {
-            "product_name": "bread",
-            "category": "bakery",
-            "price": 5
-        },
         "ccf7d66c-6ba5-4ec2-809d-e569f774a1aa": {
             "product_name": "mango",
             "product_category": "fruits",
@@ -36,6 +36,11 @@
             "product_name": "Iphone",
             "product_category": "telefoane",
             "product_price": 1000
+        },
+        "69064efc-48eb-4638-9b5c-60a29b778471": {
+            "product_name": "Dell",
+            "product_category": "Laptop",
+            "product_price": "2500"
         }
     },
     "orders": {
@@ -43,6 +48,26 @@
             "user_id": "b4da16a1-b23f-42c8-aff0-371539fe1553",
             "product_id": "2dd36a4f-9b7c-4f1f-a33b-ff44a6230645",
             "register_date": "2022-04-13 20:46"
+        },
+        "81ebc1e3-4f4e-497a-8d58-d76831197a23": {
+            "user_id": "c68c6b7e-b8dd-41ba-896f-2dd8cb585d67",
+            "product_id": "69064efc-48eb-4638-9b5c-60a29b778471",
+            "register_date": "2022-08-31 18:45"
+        },
+        "26389ceb-edae-44e8-b1e6-e19f25d59871": {
+            "user_id": "c68c6b7e-b8dd-41ba-896f-2dd8cb585d67",
+            "product_id": "69064efc-48eb-4638-9b5c-60a29b778471",
+            "register_date": "2022-08-31 18:52"
+        },
+        "6e7f0ace-7312-4f9e-b160-e9b430517cb1": {
+            "user_id": "c68c6b7e-b8dd-41ba-896f-2dd8cb585d67",
+            "product_id": null,
+            "register_date": "2022-08-31 18:53"
+        },
+        "08a37f35-8280-4483-8603-47443fafbbee": {
+            "user_id": "c68c6b7e-b8dd-41ba-896f-2dd8cb585d67",
+            "product_id": null,
+            "register_date": "2022-08-31 18:54"
         }
     }
 }

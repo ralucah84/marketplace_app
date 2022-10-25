@@ -77,5 +77,11 @@ def update_product(product_id):
     status_code, message = update_product_flask(product_id, product_data)
     return Response(status=status_code, response=message)
 
+@app.route('/add_order', methods=['POST'])
+def add_order():
+    post_data = json.loads(request.data)
+    status_code, new_order_id = create_order_flask(post_data['order_id'], post_data['userid'], post_data['productid'])
+    return Response(status=status_code, response=new_order_id)
+
 if __name__ == '__main__':
     app.run()
